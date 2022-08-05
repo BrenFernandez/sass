@@ -1,3 +1,42 @@
+.text {
+  font-family: impact;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.496), rgba(0, 0, 0, 0.479)), url(https://ep01.epimg.net/elcomidista/imagenes/2017/03/22/receta/1490207087_380172_1490208031_media_normal.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  border: solid 5px black;
+  height: 650px;
+  background-attachment: fixed; }
+
+.text1 {
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.not {
+  color: white;
+  font-size: 30px;
+  font-weight: 400; }
+
+.gluten {
+  color: orange;
+  font-size: 30px;
+  font-weight: 400; }
+
+.llevatuestilo {
+  color: white;
+  font-size: 100px;
+  font-weight: 300; }
+
+.anotgluten {
+  color: orange;
+  font-size: 100px;
+  font-weight: 300; }
+
+.coment {
+  color: white;
+  font-size: 20px;
+  font-weight: 400; }
+
 .nav-link:hover {
   color: white;
   text-decoration: underline; }
