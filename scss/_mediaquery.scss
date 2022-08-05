@@ -1,0 +1,41 @@
+@media screen and (max-width:994px){
+    .text { height: 750px;}
+.navbar {background-color: rgb(81, 81, 81) !important;}
+.cierre {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;}
+.not {color: white ;
+        font-size:20px ;
+        font-weight:400;}
+.gluten {color:orange ;
+        font-size:20px ;
+        font-weight:400;}
+.llevatuestilo {color:white ;
+        font-size:70px ;
+        font-weight:300 ;}
+.anotgluten {color:orange ;
+        font-size:70px ;
+        font-weight:300 ;}
+.coment {color:white ;
+        font-size:30px ;
+        font-weight:400 ;}
+.parrafo {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+.parrafo1 {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: small;}
+.falfajor{grid-area: falfajor;margin: 0px; height: 300px;}
+.fcrepes {grid-area: fcrepes;margin: 0px;height: 300px;}
+.fpiza {grid-area: fpiza;margin: 0px;height: 300px;}
+.ayudita {font-size: medium;
+        height: 50px;
+        width: 350px;}
+.redessociales {display: flex;
+        justify-content: space-evenly;}
+.redessociales1 {display: flex;
+        justify-content: space-evenly;}}

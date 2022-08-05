@@ -1,0 +1,227 @@
+.nav-link:hover {
+  color: white;
+  text-decoration: underline; }
+
+.navbar-brand:hover {
+  transform: scale(1.2, 1.2) !important; }
+
+@keyframes registro {
+  0% {
+    transform: translateY(400px); }
+  100% {
+    transform: translateY(0px); } }
+
+.cierre {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-content: center; }
+
+.redessociales {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 20px; }
+
+.redessociales1 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center; }
+
+.logo1 {
+  height: 50px; }
+
+.logost {
+  width: 120px;
+  margin-top: 10px; }
+
+.todosderechos {
+  color: white;
+  font-size: 20px;
+  font-family: verdana;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 30px; }
+
+@media screen and (max-width: 994px) {
+  .text {
+    height: 750px; }
+  .navbar {
+    background-color: #515151 !important; }
+  .cierre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+  .not {
+    color: white;
+    font-size: 20px;
+    font-weight: 400; }
+  .gluten {
+    color: orange;
+    font-size: 20px;
+    font-weight: 400; }
+  .llevatuestilo {
+    color: white;
+    font-size: 70px;
+    font-weight: 300; }
+  .anotgluten {
+    color: orange;
+    font-size: 70px;
+    font-weight: 300; }
+  .coment {
+    color: white;
+    font-size: 30px;
+    font-weight: 400; }
+  .parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .parrafo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small; }
+  .falfajor {
+    grid-area: falfajor;
+    margin: 0px;
+    height: 300px; }
+  .fcrepes {
+    grid-area: fcrepes;
+    margin: 0px;
+    height: 300px; }
+  .fpiza {
+    grid-area: fpiza;
+    margin: 0px;
+    height: 300px; }
+  .ayudita {
+    font-size: medium;
+    height: 50px;
+    width: 350px; }
+  .redessociales {
+    display: flex;
+    justify-content: space-evenly; }
+  .redessociales1 {
+    display: flex;
+    justify-content: space-evenly; } }
+
+.navbar {
+  background-color: black !important; }
+
+.nav-link {
+  font-size: x-large;
+  color: #0037ff !important;
+  text-decoration: none;
+  margin: 10px !important;
+  padding: 0px !important;
+  animation-name: nav !important;
+  animation-duration: 0.5s !important;
+  animation-delay: 0.2 !important;
+  animation-timing-function: ease !important; }
+
+.navbar-brand {
+  animation-name: nav !important;
+  animation-duration: 0.5s !important;
+  animation-delay: 0.2 !important;
+  animation-timing-function: ease !important; }
+
+.parrafo {
+  font-family: verdana !important;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.749);
+  background-color: rgba(255, 166, 0, 0.234);
+  border: solid white 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 15px; }
+
+.parrafo1 {
+  font-family: verdana;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.749);
+  background-color: rgba(255, 166, 0, 0.234);
+  border: solid white 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 15px; }
+
+.recetas {
+  font-family: impact;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.496), rgba(0, 0, 0, 0.479)), url(https://ep01.epimg.net/elcomidista/imagenes/2017/03/22/receta/1490207087_380172_1490208031_media_normal.jpg);
+  background-position: center;
+  background-size: cover;
+  border: solid 5px black;
+  background-attachment: fixed; }
+
+.alfajor {
+  list-style-type: none;
+  font-family: verdana;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.749);
+  background-color: rgba(255, 166, 0, 0.234);
+  border: solid white 2px;
+  margin: 10px;
+  padding: 15px; }
+
+.crepes {
+  list-style-type: none;
+  font-family: verdana;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.749);
+  background-color: rgba(255, 166, 0, 0.234);
+  border: solid white 2px;
+  margin: 10px;
+  padding: 15px; }
+
+.piza {
+  list-style-type: none;
+  font-family: verdana;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.749);
+  background-color: rgba(255, 166, 0, 0.234);
+  border: solid white 2px;
+  margin: 10px;
+  padding: 15px; }
+
+.ayudita {
+  border: white dotted 2px;
+  font-size: medium;
+  height: 30px;
+  width: 400px;
+  color: rgba(255, 255, 255, 0.781); }
+
+.d-block {
+  height: 500px !important;
+  width: 800px !important; }
+
+.carousel {
+  height: 500px !important;
+  width: 800px !important; }
+
+.carrusel {
+  display: flex !important;
+  justify-content: center !important; }
+
+.registro {
+  border: dotted 2px white;
+  padding: 10px;
+  text-align: center;
+  color: rgba(255, 166, 0, 0.731);
+  animation-name: registro;
+  animation-duration: 0.5s;
+  animation-delay: 0.2;
+  animation-timing-function: ease; }
+
+.form-check {
+  color: white !important; }
+
+/*Variables*/

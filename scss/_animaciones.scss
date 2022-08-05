@@ -1,0 +1,7 @@
+.nav-link:hover {color: white; text-decoration: underline;}
+.navbar-brand:hover {transform: scale(1.2,1.2) !important;}
+
+@keyframes registro {
+    0% {transform: translateY(400px) ;}
+    100% {transform: translateY(0px);}
+}
