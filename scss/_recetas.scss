@@ -4,26 +4,27 @@
     background-size: cover;
     border: solid 5px black;
     background-attachment: fixed;}
-.alfajor { list-style-type: none;font-family: verdana;
+.alfajor { list-style-type: none;
+    font-family: verdana;
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.749);
-    background-color: rgba(255, 166, 0, 0.234);
+    color: $colorletra;
+    background-color: $colorfondo;
     border: solid white 2px;
     margin: 10px;
     padding: 15px;}
 .crepes {list-style-type: none;
     font-family: verdana;
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.749);
-    background-color: rgba(255, 166, 0, 0.234);
+    color: $colorletra;
+    background-color: $colorfondo ;
     border: solid white 2px;
     margin: 10px;
     padding: 15px;}
 .piza {list-style-type: none;
     font-family: verdana;
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.749);
-    background-color: rgba(255, 166, 0, 0.234);
+    color: $colorletra;
+    background-color: $colorfondo;
     border: solid white 2px;
     margin: 10px;
     padding: 15px;}
@@ -31,7 +32,7 @@
     font-size: medium;
     height: 30px;
     width: 400px;
-    color: rgba(255, 255, 255, 0.781);
+    color: $colorletra;
     @media screen and (max-width:994px){
         font-size: medium;
         height: 50px;

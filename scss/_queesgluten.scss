@@ -1,8 +1,8 @@
 .parrafo {
     font-family: verdana !important;
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.749);
-    background-color: rgba(255, 166, 0, 0.234);
+    color: $colorletra;
+    background-color: $colorfond;
     border: solid white 4px;
     display: flex;
     flex-direction: column;
@@ -18,8 +18,8 @@
 .parrafo1 {
     font-family: verdana;
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.749);
-    background-color: rgba(255, 166, 0, 0.234);
+    color: $colorletra;
+    background-color: $colorfondo;
     border: solid white 4px;
     display: flex;
     flex-direction: column;
