@@ -1,5 +1,7 @@
 .navbar {  
-    background-color: black !important;}
+    background-color: black !important;
+@media screen and (max-width:994px){
+    background-color: rgb(255, 162, 63) !important;}}
 .nav-link { font-size: x-large; 
     color: rgb(0, 55, 255) !important; 
     text-decoration: none;
@@ -13,4 +15,5 @@
     animation-duration: 0.5s !important;
     animation-delay: 0.2 !important;
     animation-timing-function: ease !important;}
-
+    .nav-link:hover {color: white; text-decoration: underline;}
+    .navbar-brand:hover {transform: scale(1.2,1.2) !important;}

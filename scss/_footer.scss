@@ -1,14 +1,25 @@
 .cierre {background-color: black;
     display: flex;
     justify-content: space-around;
-    align-content: center;}
+    align-content: center;
+@media screen and (max-width:994px){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;}}
 .redessociales {display: flex;
     justify-content: space-around;
     align-content: center;
-    margin-top: 20px;}
+    margin-top: 20px;
+    @media screen and (max-width:994px){
+        display: flex;
+        justify-content: space-evenly;}}
 .redessociales1 {display: flex;
     justify-content: space-around;
-    align-content: center;}
+    align-content: center;
+    @media screen and (max-width:994px){
+        display: flex;
+        justify-content: space-evenly;}}
 .logo1 {height: 50px;}    
 .logost {width: 120px;
     margin-top: 10px;}

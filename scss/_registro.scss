@@ -4,5 +4,9 @@
     animation-duration: 0.5s;
     animation-delay: 0.2;
     animation-timing-function: ease;}
+    @keyframes registro {
+        0% {transform: translateY(400px) ;}
+        100% {transform: translateY(0px);}
+    }
 .form-check { color: white !important;}
     
