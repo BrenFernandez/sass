@@ -1,35 +1,43 @@
-.parrafo {
-    font-family: verdana !important;
-    font-size: 20px;
-    color: $colorletra;
-    background-color: $colorfond;
-    border: solid white 4px;
-    display: flex;
+$colorfondo: #ffa6003c;
+$colorletra: #ffffffbf;
+
+$move: (
+    fFuente: verdana,
+    tFuente: 20px,
+    borde: solid white 4px,
+    30: 30px,
+    15: 15px
+);
+@mixin flex-row-center{  display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
-    padding: 15px;
+    }
+.parrafo {
+    font-family: map-get($move,fFuente);
+    font-size: map-get($move,tFuente);
+    color: $colorletra ;
+    background-color: $colorfondo ;
+    border: map-get($move,borde);
+    @include flex-rox-center;
+    margin: map-get($move,30);
+    padding: map-get($move,15);
     @media screen and (max-width:994px) {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;}}
 .parrafo1 {
-    font-family: verdana;
-    font-size: 20px;
-    color: $colorletra;
-    background-color: $colorfondo;
-    border: solid white 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-    padding: 15px;
+    font-family: map-get($move,fFuente);
+    font-size: map-get($move,tFuente);
+    color: $colorletra ;
+    background-color: $colorfondo ;
+    border: map-get($move,borde);
+    @include flex-rox-center;
+    margin: map-get($move,30);
+    padding: map-get($move,15);
     @media screen and (max-width:994px)  {display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-size: small;}}
-

@@ -137,10 +137,10 @@
   flex-grow: 0 !important; }
 
 .parrafo {
-  font-family: verdana !important;
+  font-family: verdana;
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.749);
-  background-color: rgba(255, 166, 0, 0.234);
+  color: #ffffffbf;
+  background-color: #ffa6003c;
   border: solid white 4px;
   display: flex;
   flex-direction: column;
@@ -158,8 +158,8 @@
 .parrafo1 {
   font-family: verdana;
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.749);
-  background-color: rgba(255, 166, 0, 0.234);
+  color: #ffffffbf;
+  background-color: #ffa6003c;
   border: solid white 4px;
   display: flex;
   flex-direction: column;
@@ -183,48 +183,6 @@
   border: solid 5px black;
   background-attachment: fixed; }
 
-.alfajor {
-  list-style-type: none;
-  font-family: verdana;
-  font-size: 15px;
-  color: rgba(255, 255, 255, 0.749);
-  background-color: rgba(255, 166, 0, 0.234);
-  border: solid white 2px;
-  margin: 10px;
-  padding: 15px; }
-
-.crepes {
-  list-style-type: none;
-  font-family: verdana;
-  font-size: 15px;
-  color: rgba(255, 255, 255, 0.749);
-  background-color: rgba(255, 166, 0, 0.234);
-  border: solid white 2px;
-  margin: 10px;
-  padding: 15px; }
-
-.piza {
-  list-style-type: none;
-  font-family: verdana;
-  font-size: 15px;
-  color: rgba(255, 255, 255, 0.749);
-  background-color: rgba(255, 166, 0, 0.234);
-  border: solid white 2px;
-  margin: 10px;
-  padding: 15px; }
-
-.ayudita {
-  border: white dotted 2px;
-  font-size: medium;
-  height: 30px;
-  width: 400px;
-  color: rgba(255, 255, 255, 0.781); }
-  @media screen and (max-width: 994px) {
-    .ayudita {
-      font-size: medium;
-      height: 50px;
-      width: 350px; } }
-
 .d-block {
   height: 500px !important;
   width: 800px !important; }
@@ -246,6 +204,18 @@
     height: 150px !important;
     width: 350px !important; } }
 
+.preparacion, .fondosprepa {
+  list-style-type: none;
+  font-family: verdana;
+  font-size: 15px;
+  color: #ffffffbf; }
+
+.fondosprepa {
+  background-color: #ffa6003c;
+  border: solid white 2px;
+  margin: 10px;
+  padding: 15px; }
+
 .registro {
   border: dotted 2px white;
   padding: 10px;
@@ -264,5 +234,3 @@
 
 .form-check {
   color: white !important; }
-
-/*Variables*/
