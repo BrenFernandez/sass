@@ -19,7 +19,7 @@ $move: (
     color: $colorletra ;
     background-color: $colorfondo ;
     border: map-get($move,borde);
-    @include flex-rox-center;
+    @include flex-row-center;
     margin: map-get($move,30);
     padding: map-get($move,15);
     @media screen and (max-width:994px) {
@@ -33,7 +33,7 @@ $move: (
     color: $colorletra ;
     background-color: $colorfondo ;
     border: map-get($move,borde);
-    @include flex-rox-center;
+    @include flex-row-center;
     margin: map-get($move,30);
     padding: map-get($move,15);
     @media screen and (max-width:994px)  {display: flex;
