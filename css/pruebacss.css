@@ -216,6 +216,10 @@
 .form-check {
   color: white !important; }
 
+.btn {
+  background-color: rgba(255, 166, 0, 0.731);
+  border: rgba(255, 166, 0, 0.731); }
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?mo2vqy");
