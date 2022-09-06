@@ -4,11 +4,15 @@
     background-size: cover;
     text-align: left;
     border: solid 5px black;
-    height: 650px;
+    height: 1000px;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     @media screen and (max-width:994px){
         text-align: center;
-    height: 500px;}
+    height: 1000px;}
     }
 .text1 {margin-top: 20px;
     margin-left: 20px;}
@@ -40,3 +44,15 @@
     font-weight:400 ;
     @media screen and (max-width:994px){
         font-size: 10px;}}
+
+.video {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 450px;
+    border: solid 5px orange;
+    @media screen and (min-width:640px)and (max-width:994px){
+    margin-left: 200px;
+}
+@media screen and (max-width:640px){
+    margin-left: 50px;
+}}

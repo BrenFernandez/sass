@@ -5,15 +5,18 @@ $colorletra: #ffffffbf;
     background-position: center;
     background-size: cover;
     border: solid 5px black;
-    background-attachment: fixed;}
-.d-block {height: 500px !important; width: 800px !important;
+    background-attachment: fixed;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+.d-block {height: 300px !important; width: 600px !important;
     @media screen and (max-width:994px){
         height: 150px !important;
         width: 350px !important;}}
-.carousel {height: 500px !important; width: 800px !important;}
-.carrusel {display: flex !important;
-    justify-content: center !important;}
-.carousel {
+.carousel {height: 300px !important; 
+    width: 600px !important;
+    margin-bottom:100px !important ;
     @media screen and (max-width:994px){
         height: 150px !important;
         width: 350px !important;}
@@ -21,7 +24,8 @@ $colorletra: #ffffffbf;
 .preparacion{list-style-type: none;
     font-family: verdana;
     font-size: 15px;
-    color: $colorletra;}
+    color: $colorletra;
+width: 1000px;}
 .fondosprepa {    
     @extend .preparacion;
     background-color: $colorfondo;

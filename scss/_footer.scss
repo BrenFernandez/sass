@@ -1,32 +1,8 @@
-.cierre {background-color: black;
+.cierre {background-color:  rgba(107, 41, 2, 0.815);
     display: flex;
-    justify-content: space-around;
-    align-content: center;
-@media screen and (max-width:994px){
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;}}
-.redessociales {display: flex;
-    justify-content: space-around;
-    align-content: center;
-    margin-top: 20px;
-    @media screen and (max-width:994px){
-        display: flex;
-        justify-content: space-evenly;}}
-.redessociales1 {display: flex;
-    justify-content: space-around;
-    align-content: center;
-    @media screen and (max-width:994px){
-        display: flex;
-        justify-content: space-evenly;}}
-.logo1 {height: 50px;}    
-.logost {width: 120px;
-    margin-top: 10px;}
-.todosderechos {color:white;
+    justify-content: space-evenly;
+    align-content: center;}
+
+.p {color:white;
     font-size: 20px;
-    font-family: verdana;
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    margin-top: 30px;}
+    font-family: verdana;}
